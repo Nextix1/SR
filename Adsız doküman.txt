@@ -3,7 +3,7 @@
 -- Bu kod, mevcut işlevselliği korurken, OrionLib'in arayüz özelliklerini kullanır.
 
 
-local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Guy-that-exists/1-Line-Scripts/refs/heads/main/Mobile%20Friendly%20Orion"))()
 
 
 local Window = OrionLib:MakeWindow({
@@ -491,4 +491,5 @@ Player:AddToggle({
             wait()
         end
     end
+
 })
